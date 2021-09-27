@@ -1,0 +1,28 @@
+<div id="nav" class="bg-light navbar px-5 border-bottom">
+  <a href="#" class="navbar-logo my-2">Port<span class="text-info">Folio</span></a>
+  <div [ngClass]="toggle ? 'toggle-burgger' : ''" class="navbar-items"  >
+    <ul class="my-2">
+      <li>
+        <a href="/home">Home</a>
+      </li>
+      <li>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="/education">Education</a>
+      </li>
+      <li>
+        <a href="/skills">Skills</a>
+      </li>
+      <li>
+        <a href="certifications">Certification</a>
+      </li>
+    </ul>
+    <div class="burgger" (click)="toggleBurgger()">
+      <div class="top"></div>
+      <div class="middle"></div>
+      <div class="bottom"></div>
+    </div>
+  </div>
+</div>
+<div id="fix"></div>
