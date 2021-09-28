@@ -70,6 +70,9 @@ Awesome, nor vice versa. **Please do not use brand logos for any purpose except
 to represent the company, product, or service to which they refer.**
 
 
+@fortawesome/free-brands-svg-icons
+(CC-BY-4.0 AND MIT)
+
 @fortawesome/free-solid-svg-icons
 (CC-BY-4.0 AND MIT)
 Font Awesome Free License
