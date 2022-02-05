@@ -1,0 +1,106 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap'); */
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 89.9vh;
+}
+
+.container{
+  background: transparent;
+}
+
+.Banner-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.banner-title{
+  font-family: "Patrick hand", sans-serif;
+  letter-spacing: 2px;
+}
+
+.banner-title h1,h2,h3,h4,h5,h6{
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.banner-title #name{
+  font-weight: bolder;
+  font-size: 5em;
+}
+
+.hire-me, .download-cv, .view-cv{
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-family: "patrick hand", sans-serif;
+  font-size: 1.3em;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  transition: all 0.8s ease;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(90deg, #4458dc 0%, #854fee 100%) 1;
+}
+
+.hire-me{
+  color: whitesmoke;
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+}
+.download-cv, .view-cv{
+  color: black;
+  background: linear-gradient(90deg, #c6cbe7 0%, #f1ecfa 100%);
+}
+
+
+.hire-me:hover{
+  color: black;
+  background: linear-gradient(90deg, #c6cbe7 0%, #f1ecfa 100%);
+}
+.download-cv:hover, .view-cv:hover{
+  color: whitesmoke;
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+}
+
+@media screen and (max-width: 760px) {
+  .banner-title h1,h2,h3,h4,h5,h6{
+    font-size: 1.5em;
+  }
+
+  .banner-title #name{
+    font-size: 3.5em;
+  }
+
+  .hire-me, .download-cv, .view-cv{
+    font-weight: 500;
+    border-width: 1px;
+    font-size: 1em;
+  }
+
+  .banner .banner-img{
+    display: none;
+  }
+
+  .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+}

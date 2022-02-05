@@ -1,0 +1,41 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.about-me-title{
+  font-family: "Patrick hand", sans-serif;
+  font-size: 4.5em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.about-title, .about-content{
+  font-family: "Patrick hand", sans-serif;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-justify: inter-word;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title{
+  font-weight: bolder;
+}
+
+.saad{
+ color: #854fee;
+}
+
+.about-content{
+  font-weight: bolder;
+  display: inline-block;
+}
